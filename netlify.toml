@@ -1,0 +1,10 @@
+# netlify.toml
+[build]
+  # Commande pour construire votre projet
+  command = "composer install && php artisan serve"
+  # Répertoire où se trouvent les fichiers à déployer
+  publish = "public"
+
+[build.environment]
+  # Version de PHP compatible avec le projet
+  PHP_VERSION = "7.4"
