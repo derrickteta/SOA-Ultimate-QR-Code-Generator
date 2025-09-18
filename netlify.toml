@@ -1,9 +1,4 @@
 # netlify.toml
-[build]
-  command = "composer install --no-dev --optimize-autoloader && php artisan config:cache && php artisan route:cache && php artisan view:cache"
-  publish = "public"
-
-
 [build.environment]
   # Version de PHP compatible avec le projet
   PHP_VERSION = "7.4"
