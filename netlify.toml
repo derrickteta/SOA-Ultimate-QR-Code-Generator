@@ -1,6 +1,7 @@
 [build]
   publish = "public"
-  command = "composer install && php artisan config:cache"
+  command = "composer install --no-dev --optimize-autoloader && php artisan config:cache"
 
 [build.environment]
   PHP_VERSION = "7.4"
+
