@@ -42,17 +42,15 @@
         "classmap": [
             "database/seeds",
             "database/factories"
+        ],
+        "exclude-from-classmap": [
+            "vendor/barryvdh/laravel-cors"
         ]
     },
     "autoload-dev": {
         "psr-4": {
             "Tests\\": "tests/"
         }
-    },
-    "autoload": {
-    "exclude-from-classmap": [
-        "vendor/barryvdh/laravel-cors"
-    ]
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
