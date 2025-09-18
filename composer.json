@@ -49,6 +49,11 @@
             "Tests\\": "tests/"
         }
     },
+    "autoload": {
+    "exclude-from-classmap": [
+        "vendor/barryvdh/laravel-cors"
+    ]
+    },
     "minimum-stability": "dev",
     "prefer-stable": true,
     "scripts": {
